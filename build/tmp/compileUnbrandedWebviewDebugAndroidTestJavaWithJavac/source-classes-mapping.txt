@@ -1,0 +1,5 @@
+org/medicmobile/webapp/mobile/test/BuildConfig.java
+ org.medicmobile.webapp.mobile.test.BuildConfig
+org/medicmobile/webapp/mobile/SettingsDialogActivityTest.java
+ org.medicmobile.webapp.mobile.SettingsDialogActivityTest
+ org.medicmobile.webapp.mobile.SettingsDialogActivityTest$1

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "org.medicmobile.webapp.mobile.test",
+  "variantName": "processUnbrandedWebviewDebugAndroidTestResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 0,
+      "versionName": "",
+      "outputFile": "medic-android-SNAPSHOT-unbranded-webview-debug-androidTest.apk"
+    }
+  ]
+}

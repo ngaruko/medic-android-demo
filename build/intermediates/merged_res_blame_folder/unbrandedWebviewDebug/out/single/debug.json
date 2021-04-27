@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/layout_connection_error.xml.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/layout/connection_error.xml"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/layout_free_space_warning.xml.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/layout/free_space_warning.xml"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/drawable-mdpi_location_pin.png.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/drawable-mdpi/location_pin.png"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/menu_web_menu.xml.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/menu/web_menu.xml"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/layout_request_permission.xml.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/layout/request_permission.xml"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/drawable_warning_background.xml.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/drawable/warning_background.xml"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/drawable-xxhdpi_location_pin.png.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/drawable-xxhdpi/location_pin.png"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/menu_unbranded_web_menu.xml.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/menu/unbranded_web_menu.xml"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/layout_server_list_item.xml.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/layout/server_list_item.xml"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/layout_upgrading.xml.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/layout/upgrading.xml"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/drawable-hdpi_location_pin.png.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/drawable-hdpi/location_pin.png"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/layout_main.xml.flat",
+        "source": "/Users/bede/tests/medic-android/src/webview/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/raw_sound_alert.mp3.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/raw/sound_alert.mp3"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/layout_pin_entry.xml.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/layout/pin_entry.xml"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/layout_server_select_list.xml.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/layout/server_select_list.xml"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/layout_custom_server_form.xml.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/layout/custom_server_form.xml"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/bede/tests/medic-android/build/intermediates/res/merged/unbrandedWebview/debug/drawable-xhdpi_location_pin.png.flat",
+        "source": "/Users/bede/tests/medic-android/src/main/res/drawable-xhdpi/location_pin.png"
+    }
+]

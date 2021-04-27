@@ -1,0 +1,7 @@
+#Tue Apr 27 11:22:37 NZST 2021
+base.1=/Users/bede/tests/medic-android/build/intermediates/dex/unbrandedWebviewDebugAndroidTest/mergeProjectDexUnbrandedWebviewDebugAndroidTest/classes.dex
+path.1=classes.dex
+base.0=/Users/bede/tests/medic-android/build/intermediates/dex/unbrandedWebviewDebugAndroidTest/mergeExtDexUnbrandedWebviewDebugAndroidTest/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

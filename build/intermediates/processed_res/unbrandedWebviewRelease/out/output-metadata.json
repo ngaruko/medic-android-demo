@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "org.medicmobile.webapp.mobile",
+  "variantName": "processUnbrandedWebviewReleaseResources",
+  "elements": [
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "versionCode": 210,
+      "versionName": "SNAPSHOT-webview",
+      "outputFile": "resources-unbrandedWebviewArmeabi-v7aRelease.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "versionCode": 211,
+      "versionName": "SNAPSHOT-webview",
+      "outputFile": "resources-unbrandedWebviewArm64-v8aRelease.ap_"
+    }
+  ]
+}

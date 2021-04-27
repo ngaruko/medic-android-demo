@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.medicmobile.webapp.mobile"
+    android:versionCode="211"
+    android:versionName="SNAPSHOT-webview" >
+
+    <!--
+ When upgrading targetSdkVersion, check that the app menu still
+      works on newer devices.
+    -->
+    <uses-sdk
+        android:minSdkVersion="29"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--
+       uses-feature indicates to Android 5+ that we want to use hardware to get the location.
+       see: https://developer.android.com/guide/topics/location/strategies#Permission
+    -->
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+
+    <!-- READ_EXTERNAL_STORAGE required if users want to include photos from their phone -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="false"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true" >
+        <activity android:name="org.medicmobile.webapp.mobile.StartupActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.medicmobile.webapp.mobile.LockScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.medicmobile.webapp.mobile.EmbeddedBrowserActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.medicmobile.webapp.mobile.UpgradingActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.medicmobile.webapp.mobile.ConnectionErrorActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.medicmobile.webapp.mobile.FreeSpaceWarningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.medicmobile.webapp.mobile.SettingsDialogActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.medicmobile.webapp.mobile.RequestPermissionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.medicmobile.webapp.mobile.AppUrlIntentActivity"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/app_host"
+                    android:pathPattern=".*"
+                    android:scheme="@string/scheme" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="org.medicmobile.webapp.mobile.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

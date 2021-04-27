@@ -1,0 +1,85 @@
+org/medicmobile/webapp/mobile/Utils.java
+ org.medicmobile.webapp.mobile.Utils
+org/medicmobile/webapp/mobile/Alert.java
+ org.medicmobile.webapp.mobile.Alert
+org/medicmobile/webapp/mobile/MrdtSupport.java
+ org.medicmobile.webapp.mobile.MrdtSupport
+org/medicmobile/webapp/mobile/EmbeddedBrowserActivity.java
+ org.medicmobile.webapp.mobile.EmbeddedBrowserActivity
+ org.medicmobile.webapp.mobile.EmbeddedBrowserActivity$1
+ org.medicmobile.webapp.mobile.EmbeddedBrowserActivity$2
+ org.medicmobile.webapp.mobile.EmbeddedBrowserActivity$3
+ org.medicmobile.webapp.mobile.EmbeddedBrowserActivity$4
+ org.medicmobile.webapp.mobile.EmbeddedBrowserActivity$5
+ org.medicmobile.webapp.mobile.EmbeddedBrowserActivity$6
+org/medicmobile/webapp/mobile/AppUrlVerifier.java
+ org.medicmobile.webapp.mobile.AppUrlVerification
+ org.medicmobile.webapp.mobile.AppUrlVerifier
+org/medicmobile/webapp/mobile/RequestPermissionActivity.java
+ org.medicmobile.webapp.mobile.RequestPermissionActivity
+org/medicmobile/webapp/mobile/MedicAndroidJavascript.java
+ org.medicmobile.webapp.mobile.MedicAndroidJavascript
+ org.medicmobile.webapp.mobile.MedicAndroidJavascript$1
+org/medicmobile/webapp/mobile/FreeSpaceWarningActivity.java
+ org.medicmobile.webapp.mobile.FreeSpaceWarningActivity
+org/medicmobile/webapp/mobile/LockScreen.java
+ org.medicmobile.webapp.mobile.LockScreen
+ org.medicmobile.webapp.mobile.LockScreen$1
+ org.medicmobile.webapp.mobile.LockScreen$2
+ org.medicmobile.webapp.mobile.LockScreen$3
+ org.medicmobile.webapp.mobile.LockScreen$4
+ org.medicmobile.webapp.mobile.LockScreen$5
+ org.medicmobile.webapp.mobile.LockScreen$6
+ org.medicmobile.webapp.mobile.LockScreen$7
+ org.medicmobile.webapp.mobile.LockScreen$Task
+ org.medicmobile.webapp.mobile.LockableActivity
+org/medicmobile/webapp/mobile/PhotoGrabber.java
+ org.medicmobile.webapp.mobile.PhotoGrabber
+ org.medicmobile.webapp.mobile.PhotoGrabber$1
+medic/android/ActivityBackgroundTask.java
+ medic.android.ActivityBackgroundTask
+org/medicmobile/webapp/mobile/AppUrlIntentActivity.java
+ org.medicmobile.webapp.mobile.AppUrlIntentActivity
+org/medicmobile/webapp/mobile/SimpleJsonClient2.java
+ org.medicmobile.webapp.mobile.SimpleJsonClient2
+org/medicmobile/webapp/mobile/SettingsDialogActivity.java
+ org.medicmobile.webapp.mobile.ServerMetadata
+ org.medicmobile.webapp.mobile.ServerRepo
+ org.medicmobile.webapp.mobile.SettingsDialogActivity
+ org.medicmobile.webapp.mobile.SettingsDialogActivity$AppUrlVerificationTask
+ org.medicmobile.webapp.mobile.SettingsDialogActivity$ServerClickListener
+org/medicmobile/webapp/mobile/SmsSender.java
+ org.medicmobile.webapp.mobile.SmsSender
+ org.medicmobile.webapp.mobile.SmsSender$1
+ org.medicmobile.webapp.mobile.SmsSender$DeliveryReportHandler
+ org.medicmobile.webapp.mobile.SmsSender$SendingReportHandler
+org/medicmobile/webapp/mobile/SimprintsSupport.java
+ org.medicmobile.webapp.mobile.SimprintsSupport
+org/medicmobile/webapp/mobile/SettingsStore.java
+ org.medicmobile.webapp.mobile.BrandedSettingsStore
+ org.medicmobile.webapp.mobile.IllegalSetting
+ org.medicmobile.webapp.mobile.IllegalSettingsException
+ org.medicmobile.webapp.mobile.SettingsException
+ org.medicmobile.webapp.mobile.SettingsStore
+ org.medicmobile.webapp.mobile.UnbrandedSettingsStore
+ org.medicmobile.webapp.mobile.WebappSettings
+org/medicmobile/webapp/mobile/StartupActivity.java
+ org.medicmobile.webapp.mobile.StartupActivity
+org/medicmobile/webapp/mobile/ConnectionErrorActivity.java
+ org.medicmobile.webapp.mobile.ConnectionErrorActivity
+ org.medicmobile.webapp.mobile.ConnectionErrorActivity$1
+org/medicmobile/webapp/mobile/BuildConfig.java
+ org.medicmobile.webapp.mobile.BuildConfig
+org/medicmobile/webapp/mobile/MedicLog.java
+ org.medicmobile.webapp.mobile.MedicLog
+org/medicmobile/webapp/mobile/XWalkMigration.java
+ org.medicmobile.webapp.mobile.XWalkMigration
+org/medicmobile/webapp/mobile/JavascriptUtils.java
+ org.medicmobile.webapp.mobile.JavascriptUtils
+org/medicmobile/webapp/mobile/UpgradingActivity.java
+ org.medicmobile.webapp.mobile.UpgradingActivity
+org/medicmobile/webapp/mobile/ClosableAppActivity.java
+ org.medicmobile.webapp.mobile.ClosableAppActivity
+org/medicmobile/webapp/mobile/AlertDialogUtils.java
+ org.medicmobile.webapp.mobile.AlertDialogUtils
+ org.medicmobile.webapp.mobile.AlertDialogUtils$1
