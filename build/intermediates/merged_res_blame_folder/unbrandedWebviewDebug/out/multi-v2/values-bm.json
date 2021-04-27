@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/bede/tests/medic-android/build/intermediates/incremental/mergeUnbrandedWebviewDebugResources/merged.dir/values-bm/values-bm.xml",
+            "outputFile": "/Users/bede/play/medic-android-demo/build/intermediates/incremental/mergeUnbrandedWebviewDebugResources/merged.dir/values-bm/values-bm.xml",
             "map": [
                 {
-                    "source": "/Users/bede/tests/medic-android/src/main/res/values-bm/strings.xml",
+                    "source": "/Users/bede/play/medic-android-demo/src/main/res/values-bm/strings.xml",
                     "from": {
                         "startLines": "5,6,3,4,2",
                         "startColumns": "1,1,1,1,1",

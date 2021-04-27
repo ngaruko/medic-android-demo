@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:2:1-66:12
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:2:1-66:12
 MERGED from [com.simprints:LibSimprints:1.0.11] /Users/bede/.gradle/caches/transforms-2/files-2.1/aac1ccaf73ec16faf4976542ffef98c7/LibSimprints-1.0.11/AndroidManifest.xml:2:1-12:12
 MERGED from [com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:17:1-40:12
 MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/bebd7967aa6c751d8bf666ce5df7dfea/appcompat-v7-27.0.2/AndroidManifest.xml:17:1-22:12
@@ -14,29 +14,29 @@ MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/bede/.gr
 MERGED from [com.android.support:support-core-ui:27.0.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/88435c3e052c24149e2e0fdf4717656d/support-core-ui-27.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/9f994b5a02b022655074aef00b837b9c/support-compat-27.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/bede/.gradle/caches/transforms-2/files-2.1/aeba06e672855b2fa37e668d29524651/runtime-1.0.3/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:2:1-66:12
-INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:2:1-66:12
 	package
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:4:5-44
-		INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml
-		INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:4:5-44
+		INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml
+		INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:2:1-66:12
-		INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml
+		INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:2:1-66:12
+		INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:2:1-66:12
-		INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml
+		INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:2:1-66:12
+		INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:7:3-42
-INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:7:3-42
-INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:7:3-42
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:7:3-42
+INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:7:3-42
+INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:7:3-42
 MERGED from [com.simprints:LibSimprints:1.0.11] /Users/bede/.gradle/caches/transforms-2/files-2.1/aac1ccaf73ec16faf4976542ffef98c7/LibSimprints-1.0.11/AndroidManifest.xml:8:5-10:41
 MERGED from [com.simprints:LibSimprints:1.0.11] /Users/bede/.gradle/caches/transforms-2/files-2.1/aac1ccaf73ec16faf4976542ffef98c7/LibSimprints-1.0.11/AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:22:5-24:41
@@ -57,178 +57,178 @@ MERGED from [com.android.support:support-compat:27.0.2] /Users/bede/.gradle/cach
 MERGED from [com.android.support:support-compat:27.0.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/9f994b5a02b022655074aef00b837b9c/support-compat-27.0.2/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/bede/.gradle/caches/transforms-2/files-2.1/aeba06e672855b2fa37e668d29524651/runtime-1.0.3/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/bede/.gradle/caches/transforms-2/files-2.1/aeba06e672855b2fa37e668d29524651/runtime-1.0.3/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:7:3-42
-INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:7:3-42
+INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:7:3-42
+INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:7:3-42
 	android:targetSdkVersion
-		INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:7:3-42
-		INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml
+		INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:7:3-42
+		INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml
 	tools:ignore
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:7:13-40
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:7:13-40
 	android:minSdkVersion
-		INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:7:3-42
-		INJECTED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml
+		INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:7:3-42
+		INJECTED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:9:3-78
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:9:3-78
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:9:20-76
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:9:20-76
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:10:3-76
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:10:3-76
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:10:20-74
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:10:20-74
 uses-feature#android.hardware.location
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:13:3-84
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:13:3-84
 	android:required
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:13:58-82
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:13:58-82
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:13:17-57
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:13:17-57
 uses-feature#android.hardware.location.gps
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:14:3-88
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:14:3-88
 	android:required
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:14:62-86
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:14:62-86
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:14:17-61
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:14:17-61
 uses-feature#android.hardware.location.network
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:15:3-92
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:15:3-92
 	android:required
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:15:66-90
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:15:66-90
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:15:17-65
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:15:17-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:17:3-76
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:17:3-76
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:17:20-74
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:17:20-74
 uses-permission#android.permission.INTERNET
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:18:3-64
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:18:3-64
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:18:20-62
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:18:20-62
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:19:3-63
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:19:3-63
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:19:20-61
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:19:20-61
 uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:20:3-85
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:20:3-85
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:20:20-83
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:20:20-83
 uses-permission#com.android.launcher.permission.UNINSTALL_SHORTCUT
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:21:3-87
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:21:3-87
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:21:20-85
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:21:20-85
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:24:3-77
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:24:3-77
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:24:20-75
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:24:20-75
 application
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:26:3-65:17
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:26:3-65:17
 MERGED from [com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:26:5-38:19
 MERGED from [com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:26:5-38:19
 	android:supportsRtl
 		ADDED from [com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:28:9-35
 	android:label
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:26:16-48
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:26:16-48
 	tools:ignore
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:30:7-87
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:30:7-87
 	android:largeHeap
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:29:7-31
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:29:7-31
 	android:icon
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:27:7-41
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:27:7-41
 	android:allowBackup
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:28:7-34
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:28:7-34
 activity#org.medicmobile.webapp.mobile.StartupActivity
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:31:5-36:16
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:31:5-36:16
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:31:15-45
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:31:15-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:32:7-35:23
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:32:7-35:23
 action#android.intent.action.MAIN
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:33:9-60
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:33:9-60
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:33:17-58
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:33:17-58
 category#android.intent.category.LAUNCHER
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:34:9-69
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:34:9-69
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:34:19-66
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:34:19-66
 activity#org.medicmobile.webapp.mobile.LockScreen
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:37:5-38:47
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:37:5-38:47
 	android:screenOrientation
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:38:9-45
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:38:9-45
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:37:15-40
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:37:15-40
 activity#org.medicmobile.webapp.mobile.EmbeddedBrowserActivity
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:39:5-41:57
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:39:5-41:57
 	android:screenOrientation
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:40:9-45
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:40:9-45
 	android:configChanges
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:41:9-55
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:41:9-55
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:39:15-53
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:39:15-53
 activity#org.medicmobile.webapp.mobile.UpgradingActivity
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:42:5-45:41
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:42:5-45:41
 	android:screenOrientation
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:43:9-45
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:43:9-45
 	android:launchMode
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:45:9-39
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:45:9-39
 	android:configChanges
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:44:9-55
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:44:9-55
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:42:15-47
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:42:15-47
 activity#org.medicmobile.webapp.mobile.ConnectionErrorActivity
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:46:5-49:41
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:46:5-49:41
 	android:screenOrientation
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:47:9-45
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:47:9-45
 	android:launchMode
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:49:9-39
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:49:9-39
 	android:configChanges
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:48:9-55
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:48:9-55
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:46:15-53
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:46:15-53
 activity#org.medicmobile.webapp.mobile.FreeSpaceWarningActivity
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:50:5-51:47
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:50:5-51:47
 	android:screenOrientation
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:51:9-45
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:51:9-45
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:50:15-54
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:50:15-54
 activity#org.medicmobile.webapp.mobile.SettingsDialogActivity
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:52:5-53:47
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:52:5-53:47
 	android:screenOrientation
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:53:9-45
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:53:9-45
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:52:15-52
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:52:15-52
 activity#org.medicmobile.webapp.mobile.RequestPermissionActivity
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:54:5-55:47
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:54:5-55:47
 	android:screenOrientation
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:55:9-45
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:55:9-45
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:54:15-55
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:54:15-55
 activity#org.medicmobile.webapp.mobile.AppUrlIntentActivity
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:56:5-64:16
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:56:5-64:16
 	android:launchMode
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:57:9-44
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:57:9-44
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:56:15-50
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:56:15-50
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/app_host+data:pathPattern:.*+data:scheme:@string/scheme
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:58:7-63:23
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:58:7-63:23
 action#android.intent.action.VIEW
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:59:9-61
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:59:9-61
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:59:17-58
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:59:17-58
 category#android.intent.category.DEFAULT
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:60:9-68
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:60:9-68
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:60:19-65
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:60:19-65
 category#android.intent.category.BROWSABLE
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:61:9-70
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:61:9-70
 	android:name
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:61:19-67
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:61:19-67
 data
-ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:62:9-105
+ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:62:9-105
 	android:host
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:62:47-78
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:62:47-78
 	android:scheme
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:62:15-46
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:62:15-46
 	android:pathPattern
-		ADDED from /Users/bede/tests/medic-android/src/main/AndroidManifest.xml:62:79-103
+		ADDED from /Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:62:79-103
 provider#android.support.v4.content.FileProvider
 ADDED from [com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:29:9-37:20
 	android:grantUriPermissions

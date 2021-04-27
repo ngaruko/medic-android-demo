@@ -12,18 +12,6 @@
       "filters": [
         {
           "filterType": "ABI",
-          "value": "armeabi-v7a"
-        }
-      ],
-      "versionCode": 210,
-      "versionName": "SNAPSHOT-webview",
-      "outputFile": "medic-android-SNAPSHOT-unbranded-webview-armeabi-v7a-debug.apk"
-    },
-    {
-      "type": "ONE_OF_MANY",
-      "filters": [
-        {
-          "filterType": "ABI",
           "value": "arm64-v8a"
         }
       ],

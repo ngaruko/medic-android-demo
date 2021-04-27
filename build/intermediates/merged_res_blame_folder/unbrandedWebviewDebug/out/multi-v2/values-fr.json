@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/bede/tests/medic-android/build/intermediates/incremental/mergeUnbrandedWebviewDebugResources/merged.dir/values-fr/values-fr.xml",
+            "outputFile": "/Users/bede/play/medic-android-demo/build/intermediates/incremental/mergeUnbrandedWebviewDebugResources/merged.dir/values-fr/values-fr.xml",
             "map": [
                 {
                     "source": "/Users/bede/.gradle/caches/transforms-2/files-2.1/9f994b5a02b022655074aef00b837b9c/support-compat-27.0.2/res/values-fr/values-fr.xml",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/bede/tests/medic-android/src/main/res/values-fr/strings.xml",
+                    "source": "/Users/bede/play/medic-android-demo/src/main/res/values-fr/strings.xml",
                     "from": {
                         "startLines": "2,3,16,15,11,8,9,6,7,5,13,12,18",
                         "startColumns": "1,1,1,1,1,1,1,1,1,1,1,1,1",

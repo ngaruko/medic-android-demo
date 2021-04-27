@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/bede/tests/medic-android/build/intermediates/incremental/mergeUnbrandedWebviewDebugResources/merged.dir/values-v25/values-v25.xml",
+            "outputFile": "/Users/bede/play/medic-android-demo/build/intermediates/incremental/mergeUnbrandedWebviewDebugResources/merged.dir/values-v25/values-v25.xml",
             "map": [
                 {
                     "source": "/Users/bede/.gradle/caches/transforms-2/files-2.1/bebd7967aa6c751d8bf666ce5df7dfea/appcompat-v7-27.0.2/res/values-v25/values-v25.xml",

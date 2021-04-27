@@ -8,189 +8,190 @@
 8      works on newer devices.
 9    -->
 10    <uses-sdk
-10-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:7:3-42
+10-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:7:3-42
 11        android:minSdkVersion="29"
-11-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:7:3-42
+11-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:7:3-42
 12        android:targetSdkVersion="29" />
-12-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:7:3-42
+12-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:7:3-42
 13
 14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-14-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:9:3-78
-14-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:9:20-76
+14-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:9:3-78
+14-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:9:20-76
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:10:3-76
-15-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:10:20-74
+15-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:10:3-76
+15-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:10:20-74
 16    <!--
 17       uses-feature indicates to Android 5+ that we want to use hardware to get the location.
 18       see: https://developer.android.com/guide/topics/location/strategies#Permission
 19    -->
 20    <uses-feature
-20-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:13:3-84
+20-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:13:3-84
 21        android:name="android.hardware.location"
-21-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:13:17-57
+21-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:13:17-57
 22        android:required="false" />
-22-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:13:58-82
+22-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:13:58-82
 23    <uses-feature
-23-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:14:3-88
+23-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:14:3-88
 24        android:name="android.hardware.location.gps"
-24-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:14:17-61
+24-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:14:17-61
 25        android:required="false" />
-25-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:14:62-86
+25-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:14:62-86
 26    <uses-feature
-26-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:15:3-92
+26-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:15:3-92
 27        android:name="android.hardware.location.network"
-27-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:15:17-65
+27-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:15:17-65
 28        android:required="false" />
-28-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:15:66-90
+28-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:15:66-90
 29
 30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-30-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:17:3-76
-30-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:17:20-74
+30-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:17:3-76
+30-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:17:20-74
 31    <uses-permission android:name="android.permission.INTERNET" />
-31-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:18:3-64
-31-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:18:20-62
+31-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:18:3-64
+31-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:18:20-62
 32    <uses-permission android:name="android.permission.VIBRATE" />
-32-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:19:3-63
-32-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:19:20-61
+32-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:19:3-63
+32-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:19:20-61
 33    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
-33-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:20:3-85
-33-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:20:20-83
+33-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:20:3-85
+33-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:20:20-83
 34    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
-34-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:21:3-87
-34-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:21:20-85
+34-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:21:3-87
+34-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:21:20-85
 35
 36    <!-- READ_EXTERNAL_STORAGE required if users want to include photos from their phone -->
 37    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-37-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:24:3-77
-37-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:24:20-75
+37-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:24:3-77
+37-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:24:20-75
 38
 39    <application
-39-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:26:3-65:17
+39-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:26:3-65:17
 40        android:allowBackup="false"
-40-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:28:7-34
+40-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:28:7-34
 41        android:debuggable="true"
 42        android:extractNativeLibs="false"
 43        android:icon="@mipmap/ic_launcher"
-43-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:27:7-41
+43-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:27:7-41
 44        android:label="@string/app_name"
-44-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:26:16-48
+44-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:26:16-48
 45        android:largeHeap="true"
-45-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:29:7-31
-46        android:supportsRtl="true" >
+45-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:29:7-31
+46        android:supportsRtl="true"
 46-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:28:9-35
-47        <activity android:name="org.medicmobile.webapp.mobile.StartupActivity" >
-47-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:31:5-36:16
-47-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:31:15-45
-48            <intent-filter>
-48-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:32:7-35:23
-49                <action android:name="android.intent.action.MAIN" />
-49-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:33:9-60
-49-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:33:17-58
-50
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:34:9-69
-51-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:34:19-66
-52            </intent-filter>
-53        </activity>
-54        <activity
-54-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:37:5-38:47
-55            android:name="org.medicmobile.webapp.mobile.LockScreen"
-55-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:37:15-40
-56            android:screenOrientation="portrait" />
-56-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:38:9-45
-57        <activity
-57-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:39:5-41:57
-58            android:name="org.medicmobile.webapp.mobile.EmbeddedBrowserActivity"
-58-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:39:15-53
-59            android:configChanges="orientation|screenSize"
-59-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:41:9-55
-60            android:screenOrientation="portrait" />
-60-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:40:9-45
-61        <activity
-61-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:42:5-45:41
-62            android:name="org.medicmobile.webapp.mobile.UpgradingActivity"
-62-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:42:15-47
-63            android:configChanges="orientation|screenSize"
-63-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:44:9-55
-64            android:launchMode="singleTop"
-64-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:45:9-39
-65            android:screenOrientation="portrait" />
-65-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:43:9-45
-66        <activity
-66-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:46:5-49:41
-67            android:name="org.medicmobile.webapp.mobile.ConnectionErrorActivity"
-67-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:46:15-53
-68            android:configChanges="orientation|screenSize"
-68-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:48:9-55
-69            android:launchMode="singleTop"
-69-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:49:9-39
-70            android:screenOrientation="portrait" />
-70-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:47:9-45
-71        <activity
-71-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:50:5-51:47
-72            android:name="org.medicmobile.webapp.mobile.FreeSpaceWarningActivity"
-72-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:50:15-54
-73            android:screenOrientation="portrait" />
-73-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:51:9-45
-74        <activity
-74-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:52:5-53:47
-75            android:name="org.medicmobile.webapp.mobile.SettingsDialogActivity"
-75-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:52:15-52
-76            android:screenOrientation="portrait" />
-76-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:53:9-45
-77        <activity
-77-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:54:5-55:47
-78            android:name="org.medicmobile.webapp.mobile.RequestPermissionActivity"
-78-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:54:15-55
-79            android:screenOrientation="portrait" />
-79-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:55:9-45
-80        <activity
-80-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:56:5-64:16
-81            android:name="org.medicmobile.webapp.mobile.AppUrlIntentActivity"
-81-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:56:15-50
-82            android:launchMode="singleInstance" >
-82-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:57:9-44
-83            <intent-filter>
-83-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:58:7-63:23
-84                <action android:name="android.intent.action.VIEW" />
-84-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:59:9-61
-84-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:59:17-58
-85
-86                <category android:name="android.intent.category.DEFAULT" />
-86-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:60:9-68
-86-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:60:19-65
-87                <category android:name="android.intent.category.BROWSABLE" />
-87-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:61:9-70
-87-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:61:19-67
-88
-89                <data
-89-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:62:9-105
-90                    android:host="@string/app_host"
-90-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:62:47-78
-91                    android:pathPattern=".*"
-91-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:62:79-103
-92                    android:scheme="@string/scheme" />
-92-->/Users/bede/tests/medic-android/src/main/AndroidManifest.xml:62:15-46
-93            </intent-filter>
-94        </activity>
-95
-96        <provider
-96-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:29:9-37:20
-97            android:name="android.support.v4.content.FileProvider"
-97-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:30:13-67
-98            android:authorities="org.medicmobile.webapp.mobile.provider"
-98-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:31:13-60
-99            android:exported="false"
-99-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:32:13-37
-100            android:grantUriPermissions="true" >
-100-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:33:13-47
-101            <meta-data
-101-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:34:13-36:58
-102                android:name="android.support.FILE_PROVIDER_PATHS"
-102-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:35:17-67
-103                android:resource="@xml/provider_paths" />
-103-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:36:17-55
-104        </provider>
-105    </application>
-106
-107</manifest>
+47        android:testOnly="true" >
+48        <activity android:name="org.medicmobile.webapp.mobile.StartupActivity" >
+48-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:31:5-36:16
+48-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:31:15-45
+49            <intent-filter>
+49-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:32:7-35:23
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:33:9-60
+50-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:33:17-58
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:34:9-69
+52-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:34:19-66
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:37:5-38:47
+56            android:name="org.medicmobile.webapp.mobile.LockScreen"
+56-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:37:15-40
+57            android:screenOrientation="portrait" />
+57-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:38:9-45
+58        <activity
+58-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:39:5-41:57
+59            android:name="org.medicmobile.webapp.mobile.EmbeddedBrowserActivity"
+59-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:39:15-53
+60            android:configChanges="orientation|screenSize"
+60-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:41:9-55
+61            android:screenOrientation="portrait" />
+61-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:40:9-45
+62        <activity
+62-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:42:5-45:41
+63            android:name="org.medicmobile.webapp.mobile.UpgradingActivity"
+63-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:42:15-47
+64            android:configChanges="orientation|screenSize"
+64-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:44:9-55
+65            android:launchMode="singleTop"
+65-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:45:9-39
+66            android:screenOrientation="portrait" />
+66-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:43:9-45
+67        <activity
+67-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:46:5-49:41
+68            android:name="org.medicmobile.webapp.mobile.ConnectionErrorActivity"
+68-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:46:15-53
+69            android:configChanges="orientation|screenSize"
+69-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:48:9-55
+70            android:launchMode="singleTop"
+70-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:49:9-39
+71            android:screenOrientation="portrait" />
+71-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:47:9-45
+72        <activity
+72-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:50:5-51:47
+73            android:name="org.medicmobile.webapp.mobile.FreeSpaceWarningActivity"
+73-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:50:15-54
+74            android:screenOrientation="portrait" />
+74-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:51:9-45
+75        <activity
+75-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:52:5-53:47
+76            android:name="org.medicmobile.webapp.mobile.SettingsDialogActivity"
+76-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:52:15-52
+77            android:screenOrientation="portrait" />
+77-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:53:9-45
+78        <activity
+78-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:54:5-55:47
+79            android:name="org.medicmobile.webapp.mobile.RequestPermissionActivity"
+79-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:54:15-55
+80            android:screenOrientation="portrait" />
+80-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:55:9-45
+81        <activity
+81-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:56:5-64:16
+82            android:name="org.medicmobile.webapp.mobile.AppUrlIntentActivity"
+82-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:56:15-50
+83            android:launchMode="singleInstance" >
+83-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:57:9-44
+84            <intent-filter>
+84-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:58:7-63:23
+85                <action android:name="android.intent.action.VIEW" />
+85-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:59:9-61
+85-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:59:17-58
+86
+87                <category android:name="android.intent.category.DEFAULT" />
+87-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:60:9-68
+87-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:60:19-65
+88                <category android:name="android.intent.category.BROWSABLE" />
+88-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:61:9-70
+88-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:61:19-67
+89
+90                <data
+90-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:62:9-105
+91                    android:host="@string/app_host"
+91-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:62:47-78
+92                    android:pathPattern=".*"
+92-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:62:79-103
+93                    android:scheme="@string/scheme" />
+93-->/Users/bede/play/medic-android-demo/src/main/AndroidManifest.xml:62:15-46
+94            </intent-filter>
+95        </activity>
+96
+97        <provider
+97-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:29:9-37:20
+98            android:name="android.support.v4.content.FileProvider"
+98-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:30:13-67
+99            android:authorities="org.medicmobile.webapp.mobile.provider"
+99-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:31:13-60
+100            android:exported="false"
+100-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:32:13-37
+101            android:grantUriPermissions="true" >
+101-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:33:13-47
+102            <meta-data
+102-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:34:13-36:58
+103                android:name="android.support.FILE_PROVIDER_PATHS"
+103-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:35:17-67
+104                android:resource="@xml/provider_paths" />
+104-->[com.github.Mariovc:ImagePicker:1.2.2] /Users/bede/.gradle/caches/transforms-2/files-2.1/78b17f585f4154e4a4e23b84526f62f9/ImagePicker-1.2.2/AndroidManifest.xml:36:17-55
+105        </provider>
+106    </application>
+107
+108</manifest>
