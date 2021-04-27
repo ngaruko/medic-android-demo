@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1019105491605",
+    "project_id": "medic-android-bede",
+    "storage_bucket": "medic-android-bede.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019105491605:android:175a204a7cac804543399c",
+        "android_client_info": {
+          "package_name": "org.medicmobile.webapp.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019105491605-d00trgvjrl01570h9oemb2g0mv7sbqi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqYdVXVPky4f8ya4Q3lTPeMGHeP5IXq1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019105491605-d00trgvjrl01570h9oemb2g0mv7sbqi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
