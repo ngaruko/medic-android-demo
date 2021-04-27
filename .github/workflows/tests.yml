@@ -1,4 +1,4 @@
-android-pixel-4:
+android:
   type: instrumentation
   app: app-debug.apk
   test: app-debug-test.apk
