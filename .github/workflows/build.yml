@@ -13,8 +13,8 @@ jobs:
     - name: Run Instrumentation Tests
       uses: reactivecircus/android-emulator-runner@v2
       with:
-        cmd: ./gradlew connectedUnbrandedWebviewDebugAndroidTest --stacktrace
-        api: 29
+        script: ./gradlew connectedUnbrandedWebviewDebugAndroidTest --stacktrace
+        api-level: 29
     #   - name: Set up ruby
     #   uses: ruby/setup-ruby@v1
     #   with:
