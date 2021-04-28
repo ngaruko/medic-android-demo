@@ -1,23 +1,17 @@
-name: Build and test
+name: Test
 
 on: push
 jobs:
-
-
-#   build:
-#     name: Build
-#     runs-on: ubuntu-18.04
-#     steps:
-#     - uses: actions/checkout@v2
-#     - name: Test
-#       run: make test
-    # - name: Run Instrumentation Tests
-    #   uses: reactivecircus/android-emulator-runner@v2
-    #   with:
-    #     cmd: ./gradlew connectedUnbrandedWebviewDebugAndroidTest --stacktrace
-    #     api: 30
-    #     tag: default
-    #     abi: arm64-v8a
+  test-linux:
+    name: Test on Linux
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run Instrumentation Tests
+      uses: reactivecircus/android-emulator-runner@v2
+      with:
+        cmd: ./gradlew connectedUnbrandedWebviewDebugAndroidTest --stacktrace
+        api: 29
     #   - name: Set up ruby
     #   uses: ruby/setup-ruby@v1
     #   with:
@@ -63,7 +57,7 @@ jobs:
       #     arg-spec: 'tests.yml:android'
       #   env:
       #     SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
-  test:
+  test-mac:
     runs-on: macos-latest
     steps:
     - name: checkout
