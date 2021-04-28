@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run Instrumentation Tests
-      uses: reactivecircus/android-emulator-runner@v2
+      uses: - uses: malinskiy/action-android/emulator-run-cmd@release/0.1.1 #reactivecircus/android-emulator-runner@v2
       with:
         cmd: ./gradlew connectedUnbrandedWebviewDebugAndroidTest --stacktrace
         api: 29
