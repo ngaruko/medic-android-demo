@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run Instrumentation Tests
-      uses: - uses: malinskiy/action-android/emulator-run-cmd@release/0.1.1 #reactivecircus/android-emulator-runner@v2
+      uses: malinskiy/action-android/emulator-run-cmd@release/0.1.1 #reactivecircus/android-emulator-runner@v2
       with:
         cmd: ./gradlew connectedUnbrandedWebviewDebugAndroidTest --stacktrace
         api: 29
@@ -57,17 +57,17 @@ jobs:
       #     arg-spec: 'tests.yml:android'
       #   env:
       #     SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
-  test-mac:
-    runs-on: macos-latest
-    steps:
-    - name: checkout
-      uses: actions/checkout@v2
+  # test-mac:
+  #   runs-on: macos-latest
+  #   steps:
+  #   - name: checkout
+  #     uses: actions/checkout@v2
 
-    - name: run tests
-      uses: reactivecircus/android-emulator-runner@v2
-      with:
-        api-level: 29
-        script: ./gradlew connectedUnbrandedWebviewDebug
+  #   - name: run tests
+  #     uses: reactivecircus/android-emulator-runner@v2
+  #     with:
+  #       api-level: 29
+  #       script: ./gradlew connectedUnbrandedWebviewDebug
   # apk:
   #   name: Generate APK
   #   runs-on: ubuntu-18.04
