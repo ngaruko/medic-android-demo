@@ -6,9 +6,12 @@ jobs:
     name: Test on Linux
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1
-    #- name: Run Instrumentation Tests
-    - uses: malinskiy/action-android/emulator-run-cmd@release/0.1.1 #reactivecircus/android-emulator-runner@v2
+    - name: Install dependencies
+      run: |
+        sudo ${ANDROID_HOME}/tools/bin/sdkmanager --install "ndk;20.0.5594570"
+    - uses: actions/checkout@v2
+    - name: Run Instrumentation Tests
+      uses: reactivecircus/android-emulator-runner@v2
       with:
         cmd: ./gradlew connectedUnbrandedWebviewDebugAndroidTest --stacktrace
         api: 29
