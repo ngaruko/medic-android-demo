@@ -65,12 +65,16 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v2
-
-    - name: run tests
+    - name: run tests on Unbranded
       uses: reactivecircus/android-emulator-runner@v2
       with:
         api-level: 29
         script: ./gradlew connectedUnbrandedWebviewDebugAndroidTest connectedMedicmobilegammaWebviewDebugAndroidTest
+    - name: run tests on gamma
+      uses: reactivecircus/android-emulator-runner@v2
+      with:
+        api-level: 29
+        script: ./gradlew connectedMedicmobilegammaWebviewDebugAndroidTest
   # apk:
   #   name: Generate APK
   #   runs-on: ubuntu-18.04
