@@ -2,19 +2,19 @@ name: Test
 
 on: push
 jobs:
-  test-linux:
-    name: Test on Linux
-    runs-on: ubuntu-18.04
-    steps:
-    - name: Install dependencies
-      run: |
-        sudo ${ANDROID_HOME}/tools/bin/sdkmanager --install "ndk;21.4.7075529"
-    - uses: actions/checkout@v2
-    - name: Run Instrumentation Tests
-      uses: reactivecircus/android-emulator-runner@v2
-      with:
-        script: ./gradlew connectedUnbrandedWebviewDebugAndroidTest --stacktrace
-        api-level: 29
+  # test-linux:
+  #   name: Test on Linux
+  #   runs-on: ubuntu-18.04
+  #   steps:
+  #   - name: Install dependencies
+  #     run: |
+  #       sudo ${ANDROID_HOME}/tools/bin/sdkmanager --install "ndk;21.4.7075529"
+  #   - uses: actions/checkout@v2
+  #   - name: Run Instrumentation Tests
+  #     uses: reactivecircus/android-emulator-runner@v2
+  #     with:
+  #       script: ./gradlew connectedUnbrandedWebviewDebugAndroidTest --stacktrace
+  #       api-level: 29
     #   - name: Set up ruby
     #   uses: ruby/setup-ruby@v1
     #   with:
@@ -60,17 +60,17 @@ jobs:
       #     arg-spec: 'tests.yml:android'
       #   env:
       #     SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
-  # test-mac:
-  #   runs-on: macos-latest
-  #   steps:
-  #   - name: checkout
-  #     uses: actions/checkout@v2
+  test-mac:
+    runs-on: macos-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
 
-  #   - name: run tests
-  #     uses: reactivecircus/android-emulator-runner@v2
-  #     with:
-  #       api-level: 29
-  #       script: ./gradlew connectedUnbrandedWebviewDebug
+    - name: run tests
+      uses: reactivecircus/android-emulator-runner@v2
+      with:
+        api-level: 29
+        script: ./gradlew connectedUnbrandedWebviewDebugAndroidTest
   # apk:
   #   name: Generate APK
   #   runs-on: ubuntu-18.04
