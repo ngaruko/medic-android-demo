@@ -16,7 +16,7 @@ jobs:
       with:
         api-level: 29  #${{ matrix.api-level }}
         #target: ${{ matrix.target }}
-        script: ./gradlew connectedUnbrandedWebviewDebugAndroidTest -Pabi=x80 --stacktrace
+        script: ./gradlew connectedUnbrandedWebviewDebugAndroidTest -Pabi=x86 --stacktrace
     # - name: run tests on gamma
     #   uses: reactivecircus/android-emulator-runner@v2
     #   with:
