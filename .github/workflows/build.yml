@@ -16,12 +16,12 @@ jobs:
       with:
         api-level: 29  #${{ matrix.api-level }}
         #target: ${{ matrix.target }}
-        script: ./gradlew connectedUnbrandedWebviewDebugAndroidTest connectedMedicmobilegammaWebviewDebugAndroidTest
+        script: ./gradlew connectedUnbrandedWebviewDebugAndroidTest 
     - name: run tests on gamma
       uses: reactivecircus/android-emulator-runner@v2
       with:
         api-level: 29
         arch: x86
         #target: ${{ matrix.target }}
-        script: ./gradlew connectedMedicmobilegammaWebviewDebugAndroidTest
+        script: ./gradlew connectedMedicmobilegammaWebviewDebugAndroidTest -Pabi=x86
   
