@@ -1,4 +1,4 @@
-name: Test
+name: Test local
 
 on: push
 jobs:
@@ -24,4 +24,4 @@ jobs:
     #     arch: x86
     #     #target: ${{ matrix.target }}
     #     script: ./gradlew connectedMedicmobilegammaWebviewDebugAndroidTest -Pabi=x86
-  
+
