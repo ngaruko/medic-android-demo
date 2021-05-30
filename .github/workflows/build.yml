@@ -14,11 +14,11 @@ jobs:
     - name: run tests on Unbranded
       uses: reactivecircus/android-emulator-runner@v2
       with:
-        api-level: 29  #${{ matrix.api-level }}
+        api-level: 23  #${{ matrix.api-level }}
         #target: ${{ matrix.target }}
         script: ./gradlew connectedUnbrandedWebviewDebugAndroidTest -Pabi=x86 --stacktrace
     - name: run tests on gamma
       uses: reactivecircus/android-emulator-runner@v2
       with:
-        api-level: 29
+        api-level: 23
         script: ./gradlew connectedMedicmobilegammaWebviewDebugAndroidTest -Pabi=x86
