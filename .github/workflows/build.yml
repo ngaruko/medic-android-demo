@@ -4,7 +4,7 @@ on: push
 jobs:
   test-mac:
     runs-on: macos-latest
-    strategy:
+    #strategy:
       #matrix:
         #api-level: [21, 23]
         #target: [default, google_apis]
