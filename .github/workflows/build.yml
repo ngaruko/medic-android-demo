@@ -5,16 +5,16 @@ jobs:
   test-mac:
     runs-on: macos-latest
     strategy:
-      matrix:
-        api-level: [21, 23]
-        target: [default, google_apis]
+      #matrix:
+        #api-level: [21, 23]
+        #target: [default, google_apis]
     steps:
     - name: checkout
       uses: actions/checkout@v2
     - name: run tests on Unbranded
       uses: reactivecircus/android-emulator-runner@v2
       with:
-        api-level: ${{ matrix.api-level }}
+        api-level:23 # ${{ matrix.api-level }}
         #target: ${{ matrix.target }}
         script: ./gradlew connectedUnbrandedWebviewDebugAndroidTest -Pabi=x86 --stacktrace
     # - name: run tests on gamma
